@@ -19,6 +19,12 @@
     "rules": {
         "prettier/prettier": [
             "error"
-        ]
+        ],
+        "import/prefer-default-export": "off",
+        // use semi-colons
+        "semi": [
+            "error",
+            "always"
+        ],
     }
 }
